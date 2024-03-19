@@ -4,3 +4,9 @@ print(my_list)
 a = 'test'
 b = 'test1'
 c = 'test3'
+
+def test():
+    print("Test_deb")
+    print(a)
+test()
+
