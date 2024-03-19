@@ -8,3 +8,10 @@ sum = x + y
 print(f"Sum: {sum}")
 
 #2
+a = 2.5
+b = 0.5
+product = a * b
+print(f"Product: {product}")
+
+
+
