@@ -28,10 +28,10 @@
 
 # Ciag Fibonacciego od kogos z grupy
 
-list1 = [0,1]
-for i in range(2,10):
-    list1.append(list1[i-1] + list1[i-2])
-print(list1)
+# list1 = [0,1]
+# for i in range(2,10):
+#     list1.append(list1[i-1] + list1[i-2])
+# print(list1)
 
 
 # Ciag Fobinacciego z neta gotowy
@@ -48,3 +48,29 @@ print(list1)
 #     next_number = num1 + num2
 # print()
   
+# rozwiazanie od Pawla
+
+# fibonacci_numbers = [0,1]
+# for _ in range(8):
+#     next_number = fibonacci_numbers[-1] + fibonacci_numbers[-2]
+#     fibonacci_numbers.append(next_number)
+
+# print(fibonacci_numbers)
+
+#------------------- nested lists
+
+matrix = [[1,2,3], [4,5,6], [7,8,9]]
+# print(matrix)
+
+# first_row_first_column = matrix [0][0] # Accesses
+# print(first_row_first_column)
+
+# for row in matrix:
+#     print(row)
+
+# for row in matrix:
+#     print(' '.join(map(str, row)))
+
+
+
+
