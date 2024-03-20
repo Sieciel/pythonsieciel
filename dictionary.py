@@ -25,15 +25,16 @@ print(device)
 #5
 del device["model"]
 location = device.pop("location")
+print(location)
 print(device)
 
-#6
-for key in device.keys():
-    print(key)
+# #6
+# for key in device.keys():
+#     print(key)
 
-#7
-for value in device.values():
-    print(value)
+# #7
+# for value in device.values():
+#     print(value)
 
 #8
 for key,value in device.items():
