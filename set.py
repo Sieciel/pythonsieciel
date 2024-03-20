@@ -1,4 +1,4 @@
-#---Set
+#---Set (jest nieuporządkowany i zawiera nieduplikowane elementy; mozemy dodawac i odejmowac elementy )
 
 #1
 vlans = {10,20,30,40,50}
