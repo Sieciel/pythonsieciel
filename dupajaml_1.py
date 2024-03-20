@@ -27,9 +27,9 @@ def read_and_modify_router_config(file_path):
       except yamlYAMLError as exc:
         print(exc)
 
-    def write_yaml(file_path, data):
-      with open(file_path, 'w') as file:
+def write_yaml(file_path, data):
+    with open(file_path, 'w') as file:
         yaml.dump(data, file, sort_keys=False)
 
-    modified_config = read_and_modify_router_config('network_config.yml')
-    write_yaml('modified_router_config.yml', modified_config)
+modified_config = read_and_modify_router_config('network_config.yaml')
+write_yaml('modified_router_config.yml', modified_config)
