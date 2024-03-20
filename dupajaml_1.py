@@ -15,9 +15,9 @@
 #   json.dump(network_data, file, indent=4)
 
   #3
-  import yaml
+import yaml
 
-  def read_and_modify_router_config(file_path):
+def read_and_modify_router_config(file_path):
     with open(file_path, 'r') as file:
       try:
         data = yaml.safe_load(file)
