@@ -16,7 +16,7 @@ class NetworkDevice:
 # #3
 # router.display_config()
 
-#4
+#4 (dziedziczenie klasy przy pomocy komendy super)
 class Router(NetworkDevice):
     def __init__(self, hostname, ip_address, routing_protocol):
         super(). __init__(hostname, ip_address)
